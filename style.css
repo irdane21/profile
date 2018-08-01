@@ -1,0 +1,135 @@
+body {
+  background-color: rgba( 218, 200, 242, 0.2);
+}
+
+h1, h2, h3 {
+  font-family: Quicksand;
+  color: #002D75;
+
+}
+
+.center {
+  text-align: center;
+}
+
+p {
+  font-family: Montserrat;
+  font-weight: 300;
+  color: rgb(20, 57, 126);
+}
+a {
+  text-decoration: none;
+  color: #ACD7EC;
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: #6096BA;
+  }
+}
+
+.image {
+  width: 90%;
+  height: auto;
+  border-radius: 2%;
+  box-shadow: 4px 4px 3px rgba( 200, 200, 200, 0.5);
+}
+
+#image2 {
+  width: 250px;
+  height: auto;
+  margin: 0 30px;
+  box-shadow: 4px 4px 3px rgba( 200, 200, 200, 0.5);
+}
+
+#logo_youtube {
+  width: 120px;
+  height: auto;
+  margin: 0 100px;
+
+}
+
+.text {
+  padding: 20px;
+}
+
+#carre {
+  width: 70%;
+  height: auto;
+  border-radius: 2%;
+  box-shadow: 4px 4px 3px rgba( 200, 200, 200, 0.5);
+}
+
+.container {
+  width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgba(250, 250, 250, 0.5);
+  border: 5px solid;
+  border-color: rgba( 200, 200, 200, 0.2);
+}
+.header {
+  width: 900px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.inside_div {
+  margin: 40px 0px 40px 0px;
+  text-align: center;
+}
+
+#logo {
+  border-radius: 50%;
+  width: 300;
+  box-shadow: 4px 4px 3px rgba( 200, 200, 200, 0.5);
+}
+#hmif {
+  width: 500px;
+  box-shadow: 4px 4px 3px rgba( 200, 200, 200, 0.5);
+}
+
+.footer {
+  padding: 40px;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 20px auto;
+  }
+  .header {
+    width: 700px;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 20px auto;
+  }
+
+  .header {
+    width: 500px;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+ .container {
+  width: 300px;
+  margin: 20px auto;
+  }
+
+  .header {
+    width: 300px;
+    margin: 20px auto;
+  }
+}
